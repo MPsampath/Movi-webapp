@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Navbar() {
     return (
         <div>
@@ -19,8 +20,8 @@ function Navbar() {
                             <i className="fab fa-react fa-5x" id="react-logo"/>
 
                         </li>    
-                        
                     </ul>   
+                    
                     
                 </div>
             </nav>

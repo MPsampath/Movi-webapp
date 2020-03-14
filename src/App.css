@@ -1,4 +1,33 @@
-.App {
+#movies img,
+#movie img{
+  width: 100%;
+}
+
+.brand-text{
+font-size: 2rem;
+}
+#react-logo{
+  color: #00b8ff;
+  
+}
+#imdb-logo{
+  color: #f5de50;
+}
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+  #movies .col-md-3 img{
+    height: 240px;
+  }
+}
+/* .navbar navbar-header navbar-nav{
+float: right;
+} */
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +64,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
